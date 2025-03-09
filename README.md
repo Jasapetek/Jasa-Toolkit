@@ -1,6 +1,7 @@
 # M5Stack-Flipper-Toolkit  
 <img src="Media/Logo/Logo%20transparent.png" width="200" />
-## 📜 License & Attribution  
+
+## 📜 License & Attribution   
 This repository includes files from multiple sources. Some have been modified or improved for better usability.  
 
 I do **not** claim ownership of these files unless explicitly stated. If you are the original creator and would like credit or removal, please open an issue or contact me.  
