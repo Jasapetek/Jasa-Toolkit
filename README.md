@@ -16,7 +16,7 @@ This repository contains various files, scripts, and firmware that I use in my v
 ---
 
 ## 📂 Contents  
-- 📡 **NRF24L01 jamming scripts**  
+- 📡 **Flipper Zero Jamming scripts**  
 - 🔗 **M5Stack & Flipper Zero integration files**  
 - 🛠 **Firmware, schematics, and tools**  
 - 📜 **Miscellaneous scripts sourced from other repositories**  
