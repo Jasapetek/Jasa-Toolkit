@@ -30,7 +30,9 @@ This repository contains various files, scripts, and firmware that I use in my v
 - **RogueMaster Firmware:**  
   👉 [RougeMaster](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)  
 - **Unleashed Firmware:**  
-  👉 [Unleashed](https://github.com/DarkFlippers/unleashed-firmware)  
+  👉 [Unleashed](https://github.com/DarkFlippers/unleashed-firmware)
+- **Official Firmware:**  
+  👉 [Qflipper](https://flipperzero.one/update)
 
 ---
 
