@@ -16,10 +16,9 @@ This repository contains various files, scripts, and firmware that I use in my v
 ---
 
 ## 📂 Contents  
-- 📡 **Flipper Zero Jamming scripts**  
-- 🔗 **M5Stack & Flipper Zero integration files**  
-- 🛠 **Firmware, schematics, and tools**  
-- 📜 **Miscellaneous scripts sourced from other repositories**  
+- 📡 [**Flipper Zero Jamming scripts**](https://github.com/ZeroDayXSec/ZeroDayXSec-Toolkit/tree/main/Sub-GHz/Jamming%20Files)  
+- 🛠 [**Firmware**](https://github.com/ZeroDayXSec/ZeroDayXSec-Toolkit/blob/main/firmwares.md) **and** [**schematics**](https://github.com/ZeroDayXSec/ZeroDayXSec-Toolkit/tree/main/Media/Connections)  
+- 📜 [**Miscellaneous scripts sourced from other repositories**](https://github.com/ZeroDayXSec/ZeroDayXSec-Toolkit/tree/main)  
 
 ---
 
