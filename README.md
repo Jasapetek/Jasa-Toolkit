@@ -31,8 +31,6 @@ This repository contains various files, scripts, and firmware that I use in my v
   👉 [RougeMaster](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)  
 - **Unleashed Firmware:**  
   👉 [Unleashed](https://github.com/DarkFlippers/unleashed-firmware)  
-- **Momentum Firmware:**  
-  👉 [Momentum](https://github.com/Next-Flip/Momentum-Firmware) 
 
 ---
 
