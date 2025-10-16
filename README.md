@@ -40,9 +40,3 @@ This repository contains various files, scripts, and firmware that I use in my v
   👉 [M5Burner](https://drive.google.com/file/d/1J_D6eQCs2LdXaY9RqnL1WplTpQ3hN-mi/view)
 - **Official M5Stack GitHub Repo:**  
   👉 [M5Stack](https://github.com/m5stack)  
-
----
-
-## 💬 Contact  
-🐦 **Twitter (X):** ZeroDayXSec  
-📺 **YouTube:** ZeroDayXSec
